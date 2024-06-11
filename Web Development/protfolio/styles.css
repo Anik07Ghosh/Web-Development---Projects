@@ -1,0 +1,139 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Add some basic styling */
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: rgb(249, 170, 74); */
+    background-image: url(back.jpg);
+}
+
+header {
+    /* text-align:unset; */
+    background-color: #c24444;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Style the project section */
+.project {
+    margin: 20px 0;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+}
+
+/* Customize this CSS to match your design preferences */
+
+
+
+#about{
+    /* background-color: #333; */
+    /* padding-left: 100px; */
+    text-align: center;
+    /* background-image: url(1281414.jpg); */
+    /* height: 400px;
+    width: auto;
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-right: 0px; */
+    border: 3px solid black;
+
+}
+#about img{
+    /* padding-left: 350px; */
+}
+
+#skills{
+    /* background-color: aquamarine; */
+    text-align: center;
+}
+
+.class{
+    
+    /* background-color: #b44e4e; */
+    margin-top: 2.5px;
+    /* border: #0ee023;
+    border-radius: 2px; */
+    height: 650px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: 2px solid green;
+    background-image: url(ANIK\ Prot.png);
+    background-size: cover;
+    background-position: bottom;
+    /* height: 100%; */
+
+}
+.class h2{
+    padding-top: 100px;
+    padding-left: 175px;
+    
+
+}
+.class p{
+    padding-top: 5px;
+    padding-left: 20px;
+    line-break: 1.7;
+    background-color: aliceblue;
+    width: 500px;
+    height: 25px;
+    margin-left: 20px;
+
+
+
+}
+
+.project img{
+    height: 250px;
+    width: 400px;
+    /* align-items: baseline; */
+    padding-left: 64.5%;
+    /* padding-top: 0%; */
+    margin-top: -12.5%;
+}
+.project{
+    /* background-color: #333; */
+    height: 300px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border: 3px solid black;
+    
+}
+#projects{
+    background-color: #c24444;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-image: url(pink.jpg);
+    
+}
+#contact{
+    text-align: center;
+}
+#about img{
+    border: 1px solid rgb(0, 14, 6);
+    height: 100px;
+    width: 100px;
+
+}
+.project p{
+    /* text-align: center; */
+    /* text-align: left; */
+    padding-right: 500px;
+}
